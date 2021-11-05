@@ -9,7 +9,12 @@ public class Task2 {
         System.out.println("Длина гипотенузы треугольника равна " + result);
     }
 
-    // Вычисление гипотенузы треугольника по заданным катетам
+    /**
+     * Метод вычисляет длину гипотенузы прямоугольного треугольника по заданным катетам
+     * @param katet1 первый катет
+     * @param katet2 второй катет
+     * @return длина гипотенузы
+     */
     public static double hypot(double katet1, double katet2){
         return sqrt(pow(katet1, 2) + pow(katet2, 2));
     }
