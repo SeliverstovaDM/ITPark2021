@@ -1,6 +1,7 @@
 package lesson3;
 
 import java.util.Scanner;
+
 import static java.lang.Math.sqrt;
 
 public class Quadratic {
@@ -19,18 +20,18 @@ public class Quadratic {
         System.out.println(x);
     }
 
-    public static String decideQuadratic(int a, int b, int c){
-        double discriminant = b*b - 4*a*c;
+    public static String decideQuadratic(int a, int b, int c) {
+        double discriminant = b * b - 4 * a * c;
         double x1, x2;
         if (a == 0) return "Первый коэффициент не может быть 0";
         else if (discriminant < 0) return "Нет действительных решений уравнения";
         else if (discriminant == 0) {
             x1 = -b / (2 * (double) a);
             return "Решение уравнения: " + x1;
-        }
-        else {x1 = (-b + sqrt(discriminant))/ (2 * a);
+        } else {
+            x1 = (-b + sqrt(discriminant)) / (2 * a);
             String result1 = String.valueOf(x1);
-            x2 = (-b - sqrt(discriminant))/ (2 * a);
+            x2 = (-b - sqrt(discriminant)) / (2 * a);
             String result2 = String.valueOf(x2);
             return "Решения уравнения: " + result1 + " " + result2;
         }
