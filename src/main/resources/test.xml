@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Employees>
+    <Employee>
+        <PersonalNumber>42567</PersonalNumber>
+        <Login>IvanovII</Login>
+        <Name>Ivanov Ivan Ivanovich</Name>
+        <Department>
+            <city>Moscow</city>
+            <subUnit>Marketing</subUnit>
+        </Department>
+        <Position>
+            <salary>50000.0</salary>
+            <specialty>Marketolog</specialty>
+        </Position>
+    </Employee>
+    <Employee>
+        <PersonalNumber>73947</PersonalNumber>
+        <Login>PetrovPP</Login>
+        <Name>Petrov Petr Petrovich</Name>
+        <Department>
+            <city>Rostov</city>
+            <subUnit>Sales</subUnit>
+        </Department>
+        <Position>
+            <salary>80000.0</salary>
+            <specialty>Seller</specialty>
+        </Position>
+    </Employee>
+    <Employee>
+        <PersonalNumber>38797</PersonalNumber>
+        <Login>SidorovAA</Login>
+        <Name>Sidorov Alexey Alexeyevich</Name>
+        <Department>
+            <city>Peterburg</city>
+            <subUnit>Insurance</subUnit>
+        </Department>
+        <Position>
+            <salary>60000.0</salary>
+            <specialty>Risk Manager</specialty>
+        </Position>
+    </Employee>
+</Employees>
